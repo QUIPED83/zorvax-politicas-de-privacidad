@@ -12,6 +12,7 @@
 # next.js
 /.next/
 /out/
+Deleting .next
 
 # production
 /build
