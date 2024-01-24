@@ -80,7 +80,7 @@ jobs:
           ls -la
           ls -la out
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2.2.0
+        uses: actions/upload-pages-artifact@v2.0.0
         with:
           path: ./out
 
@@ -94,4 +94,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
