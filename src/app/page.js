@@ -1,5 +1,6 @@
 import Who from "../components/Who";
 import AboutData from "../components/AboutData";
+
 import { Container } from "postcss";
 export default function Home() {
   return (
